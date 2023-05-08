@@ -38,3 +38,4 @@
     insert_quizzes.sql
     pytest.ini
     requirements-dev.txt
+    prod.env
