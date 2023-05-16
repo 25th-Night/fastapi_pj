@@ -8,7 +8,7 @@ from app import api
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins={"*"},
+    allow_origins={"https://quizbot.azurewebsites.net", "http://localhost", "https://3524-175-117-84-242.ngrok-free.app"},
     allow_credentials=True,
     allow_methods={"OPTIONS", "GET", "POST"},
     allow_headers={"*"},
